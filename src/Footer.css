@@ -1,0 +1,18 @@
+div .Footer {
+  color: #00001c;
+  font-family: "Darker Grotesque", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+
+  position: relative;
+  top: 10px;
+}
+
+a.footer-links {
+  color: #00001c;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+a.footer-links:hover {
+  color: #c9afc7;
+}

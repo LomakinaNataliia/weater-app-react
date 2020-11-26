@@ -1,0 +1,22 @@
+input.search-engine {
+  background: transparent;
+  border: 1px solid #c9afc7;
+  border-radius: 3px;
+  color: #c9afc7;
+  margin-right: 3px;
+  width: 225px;
+}
+
+input.search-button {
+  background: #c9afc7;
+  border: 1px solid #c9afc7;
+  border-radius: 3px;
+  color: #3d2f59;
+  margin-right: 2px;
+}
+
+input.search-button:hover {
+  background: #3d2f59;
+  color: #c9afc7;
+  transition: all 200ms ease-in-out;
+}

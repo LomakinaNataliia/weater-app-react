@@ -1,0 +1,28 @@
+div.card-body {
+  background: linear-gradient(
+    to top,
+    #9b7e9a 1%,
+    8%,
+    #3d2f59 20%,
+    50%,
+    #00001c 90%
+  );
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 2px rgba(112, 132, 163, 0.4);
+  color: #c9afc7;
+  padding: 0 10px;
+  text-align: center;
+}
+
+#city {
+  color: #acbfe5;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+}
+
+p.description {
+  color: #acbfe5;
+  font-size: 20px;
+  font-family: "Staatliches", cursive;
+  margin-bottom: auto;
+}
