@@ -10,7 +10,7 @@ export default function Today() {
         </span>
         <span className="units">
           <a
-            href="https://49t5m.csb.app/"
+            href="/"
             className="celsius-link active"
             id="celsius-link"
           >
@@ -18,7 +18,7 @@ export default function Today() {
           </a>
           |
           <a
-            href="https://49t5m.csb.app/"
+            href="/"
             className="fahrenheit-link"
             id="fahrenheit-link"
           >
