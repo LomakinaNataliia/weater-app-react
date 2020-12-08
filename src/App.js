@@ -5,7 +5,7 @@ import Footer from "./Footer";
 function App() {
   return (
     <div>      
-      <Weather />
+      <Weather defaultCity="Kyiv" />
       <Footer />    
     </div>
   );
