@@ -1,12 +1,11 @@
 import React from "react";
-
-import Content from "./Content";
+import Weather from "./Weather";
 import Footer from "./Footer";
 
 function App() {
   return (
     <div>      
-      <Content />
+      <Weather />
       <Footer />    
     </div>
   );
