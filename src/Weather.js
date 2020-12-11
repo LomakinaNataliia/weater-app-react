@@ -16,7 +16,7 @@ export default function Weather(props) {
       ready:true,
       date:new Date(response.data.dt * 1000),
       city:response.data.name,
-      iconUrl:'https://icons-for-free.com/iconfiles/png/512/sunny+temperature+weather+icon-1320196637430890623.png',
+      iconUrl:`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       description:response.data.weather[0].description,
       temperature:response.data.main.temp,
       feelsLike:response.data.main.feels_like,
@@ -36,7 +36,7 @@ export default function Weather(props) {
     event.preventDefault();
     searchCity();
   }
-  
+
   function updateCity(event) {
     setCity(event.target.value);
   }
