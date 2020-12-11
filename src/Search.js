@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Search.css";
 
 export default function Search() {
-  let [city, setCity] = useState("");
+  let [city, setCity] = useState(props.defaultCity);
   function handleSubmit(event) {
     event.preventDefault();
 
