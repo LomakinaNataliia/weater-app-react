@@ -93,32 +93,17 @@ span.units {
   font-size: 20px;
   position: relative;
   top: -34px;
-}
-
-a.celsius-link {
-  color: #acbfe5;
-}
-
-a.celsius-link:hover {
-  color: #acbfe5;
-}
-
-a.fahrenheit-link {
-  color: #acbfe5;
-}
-
-a.fahrenheit-link:hover {
-  color: #acbfe5;
+  color: #c9afc7;
 }
 
 a.active {
-  color: #c9afc7;
+  color: #acbfe5;
   cursor: default;
+  margin: 0 5px;
 }
 
 a.active:hover {
-  color: #c9afc7;
-  text-decoration: none;
+  color: #acbfe5;
 }
 
 div.right-block {
