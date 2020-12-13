@@ -15,11 +15,14 @@ export default function WeatherForecast(props) {
 
   if (loaded){
     return (
-    <div className="forecast">  
-      {new Date (forecast.list[0].dt *1000).getHours()}:00 
-      <WeatherIcon code={forecast.list[0].weather[0].icon} />
-      {Math.round(forecast.list[0].main.temp_max)}⁰ |{" "}
-      {Math.round(forecast.list[0].main.temp_min)}⁰  
+    <div className="forecast row">  
+      <div className="col">
+        {new Date (forecast.list[0].dt *1000).getHours()}:00 
+        <WeatherIcon code={forecast.list[0].weather[0].icon} />
+        {Math.round(forecast.list[0].main.temp_max)}⁰ | {" "}
+        {Math.round(forecast.list[0].main.temp_min)}⁰ 
+      </div>
+       
     </div>
   );  
     
