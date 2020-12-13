@@ -74,7 +74,8 @@ p.description {
 }
 
 canvas {
-  margin: 10px;
+  display: block;
+  margin: 10px auto;
 }
 
 div.block {
