@@ -4,7 +4,7 @@ import "./Weather.css";
 
 // import Search from "./Search";
 import WeatherInfo from "./WeatherInfo";
-import Forecast from "./Forecast";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
   const [city, setCity] = useState(props.defaultCity);
@@ -63,7 +63,7 @@ export default function Weather(props) {
       />
     </form>
         <WeatherInfo data={weatherData}/>
-        <Forecast />
+        <WeatherForecast city={weatherData.city}/>
       </div>
     </div>
   );
@@ -74,5 +74,4 @@ export default function Weather(props) {
   }
   
 }
-  // forecastApiUrl=`https://api.openweathermap.org/data/2.5/forecast?q=${city}`;
-  // axios.get(`${forecastApiUrl}&units=${units}&appid=${apiKey}`).then(displayForecast);
+ 

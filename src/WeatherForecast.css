@@ -1,13 +1,13 @@
-div .forecast {
+/* div .forecast {
   color: #acbfe5;
   text-align: center;
   margin: auto;
-}
+} */
 
-h6.forecast {
+h6 {
   margin-top: 15px;
 }
 
-div .forecast-icon {
-  max-width: 90px;
+p {
+  margin-top: 0;
 }
