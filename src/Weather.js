@@ -56,11 +56,11 @@ export default function Weather(props) {
         autoComplete="false"
       />
       <input type="submit" value="Search" className="search-button" />
-      <input
+      {/* <input
         type="submit"
         value="Search By Location 🗺"
         className="search-button"
-      />
+      /> */}
     </form>
         <WeatherInfo data={weatherData}/>
         <WeatherForecast city={weatherData.city}/>

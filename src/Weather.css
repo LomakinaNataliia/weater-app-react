@@ -35,8 +35,10 @@ input.search-engine {
   border: 1px solid #c9afc7;
   border-radius: 3px;
   color: #c9afc7;
-  margin-right: 3px;
-  width: 225px;
+  /* margin-right: 3px; */
+  margin: 0 15px;
+  /* width: 225px; */
+  width: 300px;
 }
 
 input.search-button {
@@ -44,7 +46,9 @@ input.search-button {
   border: 1px solid #c9afc7;
   border-radius: 3px;
   color: #3d2f59;
-  margin-right: 2px;
+  /* margin-right: 2px; */
+  margin: 0 auto;
+  width: 100px;
 }
 
 input.search-button:hover {
@@ -71,11 +75,6 @@ p.description {
   font-size: 20px;
   font-family: "Staatliches", cursive;
   margin-bottom: auto;
-}
-
-canvas {
-  display: block;
-  margin: 10px auto;
 }
 
 div.block {

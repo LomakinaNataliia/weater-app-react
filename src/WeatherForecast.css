@@ -1,4 +1,10 @@
 div.forecast {
   color: #acbfe5;
   text-align: center;
+  margin: 10px auto;
+}
+
+canvas {
+  display: block;
+  margin: 10px auto;
 }
